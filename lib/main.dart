@@ -5,6 +5,10 @@ import 'package:one_line_review_app/pages/tabs/search_page.dart';
 import 'package:one_line_review_app/pages/tabs/write_review_page.dart';
 import 'package:one_line_review_app/pages/tabs/profile_page.dart';
 
+// auth
+//import 'package:one_line_review_app/pages/auth/sign_in.dart';
+//import 'package:one_line_review_app/pages/auth/sign_up.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -33,7 +37,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final List<Widget> _children = [
     HomePage(),
-    SearchPage(),
     MyMoviesPage(),
     WriteReviewPage(),
     ProfilePage()
@@ -66,10 +69,10 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: Icon(Icons.home),
               label: '홈',
             ),
-            new BottomNavigationBarItem(
-              icon: Icon(Icons.search),
-              label: '검색',
-            ),
+//            new BottomNavigationBarItem(
+//              icon: Icon(Icons.search),
+//              label: '검색',
+//            ),
             new BottomNavigationBarItem(
               icon: Icon(Icons.mail),
               label: '내 영화관',
