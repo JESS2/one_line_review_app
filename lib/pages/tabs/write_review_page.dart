@@ -9,7 +9,7 @@ class _HomePageState extends State<WriteReviewPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('write review page'),
+      child: Text('write review page!!'),
     );
   }
 }

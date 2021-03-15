@@ -57,6 +57,14 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Center(
             child: Text('한줄평'),
           ),
+          elevation: 0.5,
+          actions: [
+            IconButton(
+                icon: Icon(Icons.search),
+                onPressed: () {
+                  print('search!!!');
+                })
+          ],
         ),
         body: _children[currentTabIdx],
         bottomNavigationBar: BottomNavigationBar(
